@@ -2,8 +2,8 @@
 
 # usage
 # su_bruteforce.sh <username> <password list> [prefix] [suffix] [max_jobs]
-# example: su_bruteforce.sh johnsmith customlist.txt PrettyS3cure Password123.
-# example: su_bruteforce.sh johnsmith customlist.txt "" "" 20
+# example: su_bruteforce.sh johndoe customlist.txt Mypass word
+# example: su_bruteforce.sh johndoe customlist.txt "" "" 20
 
 set -m
 export TOP_PID=$$
